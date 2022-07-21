@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script>Index.js</script>
+    <title>Pruebas</title>
+</head>
+<body> 
+
+    <a-scene>
+        <a-assets>
+            <img src="Fondo.jpg" id="fondo">
+            <img src="meteor.jpeg" id="Meteoro">    
+        </a-assets> 
+        <a-sky src="Fondo.jpg "></a-sky>
+        <a-entity geometry="primitive: sphere; radius: 2;" position="15,0,0" material="shader : flat: src: #Meteoro;"> </a-entity>
+    </a-scene>
+</body>
+</html>
